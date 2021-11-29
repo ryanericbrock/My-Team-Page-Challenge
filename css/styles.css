@@ -1,0 +1,60 @@
+body {
+  font-family: "Noto Serif", serif;
+}
+
+.heading, .staff-members {
+  margin: 3% 10%;
+}
+
+.subheading {
+  font-weight: bold;
+}
+
+.mission {
+  padding-right: 35%;
+}
+
+.staff-photos {
+  width: 70%;
+  float: left;
+}
+
+.job-title {
+  font-size: 0.9rem;
+  writing-mode: vertical-rl;
+}
+
+.staff-name {
+  font-size: 1.1rem;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .mid-staff {
+    margin-top: 30%;
+  }
+
+  .staff-name {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .right-staff {
+    margin-top: 30%;
+  }
+
+  .heading, .staff-members {
+    margin: 3% 0;
+  }
+
+  .mission {
+    padding-right: 0;
+  }
+}
+
+.footer {
+  margin-top: 5%;
+  text-align: center;
+}
